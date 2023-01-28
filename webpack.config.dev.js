@@ -17,7 +17,7 @@ module.exports = merge(common, {
       template: './public/index.html',
     }),
     new Dotenv({
-      path: './configs/development.env',
+      path: './envs/development.env',
     }),
   ],
 });

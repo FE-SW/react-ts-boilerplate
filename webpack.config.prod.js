@@ -21,7 +21,7 @@ module.exports = merge(common, {
       },
     }),
     new Dotenv({
-      path: './configs/production.env',
+      path: './envs/production.env',
     }),
     new CleanWebpackPlugin(),
   ],
